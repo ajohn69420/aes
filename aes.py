@@ -342,7 +342,7 @@ class AES:
     
     def encrypt_ecb(self, plaintext):
         """
-        Encrypts plaintext using ECB mode and PKCS#7 padding.
+        Encrypts `plaintext` using ECB mode and PKCS#7 padding.
         """
 
 
@@ -357,7 +357,7 @@ class AES:
 
     def decrypt_ecb(self, ciphertext):
         """
-        Decrypts ciphertext using ECB mode and PKCS#7 padding.
+        Decrypts `ciphertext` using ECB mode and PKCS#7 padding.
         """
         
 
